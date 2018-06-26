@@ -21,14 +21,15 @@
 <h1>Welcome to bookhub App</h1>
 <sub>your list of books</sub>
 
+<?php
+// session_start();
+// Store Session Data
+// $_SESSION['luser']= $username;  // Initializing Session with value of PHP Variable
 
-if user exist login else register
+$username = $_SESSION['user'];
+echo $username;
 
-for login  reset password change password
-
-
-<button type="button" name="login"><a href="login.php">Login</a></button>
-<button type="button" name="register"><a href="register.php">Register</a></button>
+?>
 
 
 
